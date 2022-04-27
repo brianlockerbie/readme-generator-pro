@@ -23,8 +23,19 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(`./dist/${fileName}.md`, generateMarkdown(data), err => {
-        console.log(err);
+    // new promise for file
+    return new Promise ((resolve, reject) => {
+        fs.writeFile(`./dist/${fileName}.md`, generateMarkdown(data), err => {
+            if(err) {
+                reject(err);
+                return
+            } else {
+                resolve({
+                    ok: true,
+                    message: 'README Created!'
+                })
+            }
+        })
     })
 }
 
@@ -34,7 +45,7 @@ init = () => {
         .prompt(questions)
         .then(readMeData => {
             const { title } = readMeData
-            writeToFile(title, readMeData);
+            return writeToFile(title, readMeData);
         })
         .then(markdownData => {
             console.log(markdownData);
