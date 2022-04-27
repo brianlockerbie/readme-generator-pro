@@ -9,7 +9,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Please enter your project name.",
+        message: "Please enter your project name. (Required)",
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -18,6 +18,79 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: "input",
+        name: "description",
+        message: "Please enter a description for your project. (Required)",
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log("Please enter a project description!");
+                return false;
+            } 
+        }
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "Please enter installation instructions for your project. (Required)",
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log("Please enter your project's installation instructions!");
+                return false;
+            } 
+        }
+    }
+    ,
+    {
+        type: "input",
+        name: "usage",
+        message: "Please enter usage details for your project. (Required)",
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log("Please enter your project's usage details!");
+                return false;
+            } 
+        }
+    }
+    ,
+    {
+        type: "input",
+        name: "contributing",
+        message: "Please enter details for contributing to your project. (Required)",
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log("Please enter your project's contributing details!");
+                return false;
+            } 
+        }
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Please enter details for testing your project. (Required)",
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log("Please enter your project's testing details!");
+                return false;
+            } 
+        }
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Please choose a license for your project.",
+        choices: ["MIT", "Apache-2.0", "gpl-3.0", "None"]
     }
 ];
 
@@ -47,8 +120,8 @@ init = () => {
             const { title } = readMeData
             return writeToFile(title, readMeData);
         })
-        .then(markdownData => {
-            console.log(markdownData);
+        .then(result => {
+            console.log(result);
         })
 
 }
