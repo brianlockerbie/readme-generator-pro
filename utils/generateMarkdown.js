@@ -55,14 +55,14 @@ function renderLicenseSection(license) {
   return `
     <a name="license"></a>
     ## License
-    This project is licensed under the ${license} License - see ${renderLicenseBadge(license)} for more details.
+    This project is licensed under the ${license} License - see the [license info](${renderLicenseLink(license)}) for more details.
   `
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   
-  const { title, description, installation, usage, license } = data;
+  const { title, description, installation, usage, license, ...questions } = data;
 
   return `# ${title}
 
@@ -89,6 +89,9 @@ function generateMarkdown(data) {
 
     <a name="questions"></a>
     ## Questions
+
+    [GitHub](https://github.com/${questions.github})
+    For any questions, please send an Email to [${questions.email}](mailto:${questions.email})
 
 
  `;
