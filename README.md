@@ -3,7 +3,7 @@
 
 
 ## Description:
-This application uses Node.js to generate README.md files after answering a series of quetions.
+This application uses Node.js to generate README.md files. After answering a series of quetions. This command-line application, will create a personalized README.md file for your project to help save time. 
 
 ## Built With:
 * JavaScript
