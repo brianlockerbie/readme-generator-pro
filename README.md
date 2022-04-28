@@ -3,7 +3,7 @@
 
 
 ## Description
-  This application uses Node.js to generate README.md files. After answering a series of quetions. This command-line application, will create a personalized README.md file for your project to help save time.
+  This application uses Node.js to generate README.md files. After answering a series of questions. This command-line application, will create a personalized README.md file for your project to help save time.
   <br/>
   <br/>
 
@@ -28,12 +28,12 @@
 
   <a name="installation"></a>
   ## Installation
-  Begin cloning the repository and installing Node.js to your computer. Type & enter "node index.js" in the terminal. Completley answer all of the prompts to generate a README file. The newly created "README.md" file will be found in a folder called "dist" in the root directory.
+  Begin cloning the repository and installing Node.js to your computer. Type & enter "node index.js" in the terminal. Completely answer all of the prompts to generate a README file. The newly created "README.md" file will be found in a folder called "dist" in the root directory.
 
   <a name="usage"></a>
 
   ## Usage
-  This template is suitable for most projects. Watch video walkthrough of how how to use this application.
+  This template is suitable for most projects. Watch video walkthrough of how to use this application.
 
   
   <a name="license"></a>
