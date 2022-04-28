@@ -66,35 +66,35 @@ function generateMarkdown(data) {
 
   return `# ${title}
 
-    ## Description
-    ${description}
-    ${renderLicenseBadge(license)}
-    ## Table of Contents
-    ${renderTableOfContents(license)}
+  ## Description
+  ${description}
+  ${renderLicenseBadge(license)}
+  ## Table of Contents
+  ${renderTableOfContents(license)}
 
-    <a name="installation"></a>
-    ## Installation
-    ${installation}
+  <a name="installation"></a>
+  ## Installation
+  ${installation}
 
-    <a name="usage"></a>
-    ## Usage
-    ${usage}
-    ${renderLicenseSection(license)}
+  <a name="usage"></a>
+  ## Usage
+  ${usage}
+  ${renderLicenseSection(license)}
 
-    <a name="contributing"></a>
-    ## Contributing
+  <a name="contributing"></a>
+  ## Contributing
 
-    <a name="tests"></a>
-    ## Tests
+  <a name="tests"></a>
+  ## Tests
 
-    <a name="questions"></a>
-    ## Questions
+  <a name="questions"></a>
+  ## Questions
 
-    [GitHub](https://github.com/${questions.github})
-    For any questions, please send an Email to [${questions.email}](mailto:${questions.email})
+  [GitHub](https://github.com/${questions.github})
+  For any questions, please send an Email to [${questions.email}](mailto:${questions.email})
 
 
- `;
+   `;
 }
 
 module.exports = generateMarkdown;
