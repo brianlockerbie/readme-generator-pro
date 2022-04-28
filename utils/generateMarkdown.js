@@ -53,9 +53,10 @@ function renderLicenseSection(license) {
   }
 
   return `
-    <a name="license"></a>
-    ## License
-    This project is licensed under the ${license} License - see the [license info](${renderLicenseLink(license)}) for more details.
+  <a name="license"></a>
+
+  ## License
+  This project is licensed under the ${license} License - see the [license info](${renderLicenseLink(license)}) for more details.
   `
 }
 

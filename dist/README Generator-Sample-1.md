@@ -26,9 +26,10 @@
   This template is suitable for most projects. Watch video walkthrough of how how to use this application.
 
   
-    <a name="license"></a>
-    ## License
-    This project is licensed under the MIT License - see the [license info](https://opensource.org/licenses/MIT) for more details.
+  <a name="license"></a>
+
+  ## License
+  This project is licensed under the MIT License - see the [license info](https://opensource.org/licenses/MIT) for more details.
   
 
   <a name="contributing"></a>
