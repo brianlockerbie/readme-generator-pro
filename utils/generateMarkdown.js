@@ -3,12 +3,12 @@
 function renderTableOfContents(license) {
   if(license === "None") {
     return `
-    1. [ Installation ](#installation)
-    2. [ Usage ](#usage)
-    3. [ Contributing ](#contributing)
-    4. [ Tests ](#tests)
-    5. [ Questions ](#questions)
-    `
+  1. [ Installation ](#installation)
+  2. [ Usage ](#usage)
+  3. [ Contributing ](#contributing)
+  4. [ Tests ](#tests)
+  5. [ Questions ](#questions)
+   `
   }
 
   return `
@@ -68,7 +68,10 @@ function generateMarkdown(data) {
 
   ## Description
   ${description}
+  <br/>
+  <br/>
   ${renderLicenseBadge(license)}
+
   ## Table of Contents
   ${renderTableOfContents(license)}
 
@@ -77,17 +80,22 @@ function generateMarkdown(data) {
   ${installation}
 
   <a name="usage"></a>
+
   ## Usage
   ${usage}
+
   ${renderLicenseSection(license)}
 
   <a name="contributing"></a>
+
   ## Contributing
 
   <a name="tests"></a>
+
   ## Tests
 
   <a name="questions"></a>
+  
   ## Questions
 
   [GitHub](https://github.com/${questions.github})
