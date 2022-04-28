@@ -45,10 +45,12 @@
   <a name="contributing"></a>
 
   ## Contributing
+  This project can be contributed to by forking this application. Pull Requests are also another option of contributing.
 
   <a name="tests"></a>
 
   ## Tests
+  To test this project, just follow the instructions & instalation details, using your own personal details to complete and generate your very own README.md.
 
   <a name="questions"></a>
   
@@ -79,4 +81,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-## Screenshot: <img src="readme-sample.png">
+## Screenshot:
+ <br/>
+ <img src="readme-sample.png">
