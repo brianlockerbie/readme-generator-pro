@@ -45,10 +45,12 @@
   <a name="contributing"></a>
 
   ## Contributing
+  You can contribute by Forking or by using Pull Requests.
 
   <a name="tests"></a>
 
   ## Tests
+  You can test this app with almost any project.
 
   <a name="questions"></a>
   
