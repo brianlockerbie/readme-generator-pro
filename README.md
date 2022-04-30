@@ -33,7 +33,7 @@
   <a name="usage"></a>
 
   ## Usage
-  This template is suitable for most projects. Watch video walkthrough on how to use this application by clicking [here](https://drive.google.com/file/d/1va2k9S_tYl4pF4IdM8b-xpR6ujuWmn_B/preview).
+  This template is suitable for most projects. Watch video walkthrough on how to use this application by clicking [here](https://drive.google.com/file/d/1va2k9S_tYl4pF4IdM8b-xpR6ujuWmn_B/view).
 
   
   <a name="license"></a>
