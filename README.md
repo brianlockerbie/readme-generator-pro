@@ -3,7 +3,7 @@
 
 
 ## Description
-  This application uses Node.js to generate README.md files. After answering a series of quetions. This command-line application, will create a personalized README.md file for your project to help save time.
+  This application uses Node.js to generate README.md files. After answering a series of questions. This command-line application, will create a personalized README.md file for your project to help save time.
   <br/>
   <br/>
 
@@ -28,12 +28,16 @@
 
   <a name="installation"></a>
   ## Installation
-  Begin cloning the repository and installing Node.js to your computer. Type & enter "node index.js" in the terminal. Completley answer all of the prompts to generate a README file. The newly created "README.md" file will be found in a folder called "dist" in the root directory.
+  Begin cloning the repository and installing Node.js to your computer. Type & enter "node index.js" in the terminal. Completely answer all of the prompts to generate a README file. The newly created "README.md" file will be found in a folder called "dist" in the root directory.
 
   <a name="usage"></a>
 
   ## Usage
+<<<<<<< HEAD
   This template is suitable for most projects. Watch video walkthrough of how how to use this application by following this <iframe src="https://drive.google.com/file/d/1va2k9S_tYl4pF4IdM8b-xpR6ujuWmn_B/preview" width="640" height="480">link</iframe>
+=======
+  This template is suitable for most projects. Watch video walkthrough of how to use this application.
+>>>>>>> 350ee6d56f53d32ae10ed2a92e80a8ec572d9227
 
   
   <a name="license"></a>
@@ -45,10 +49,12 @@
   <a name="contributing"></a>
 
   ## Contributing
+  This project can be contributed to by forking this application. Pull Requests are also another option of contributing.
 
   <a name="tests"></a>
 
   ## Tests
+  To test this project, just follow the instructions & instalation details, using your own personal details to complete and generate your very own README.md.
 
   <a name="questions"></a>
   
@@ -79,4 +85,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
-## Screenshot: <img src="readme-sample.png">
+## Screenshot:
+ <br/>
+ <img src="readme-sample.png">
